@@ -26,6 +26,11 @@ class Program
 
     }
 
+    public static int MathModule(int num1, int num2)
+    {
+        return num1 % num2;
+    }
+
 
     static void Main(string[] args)
     {
@@ -52,6 +57,10 @@ class Program
 
         Console.WriteLine(divideNumbers);
 
+
+        int modulusNumber = MathModule(5, 2);
+
+        Console.WriteLine(modulusNumber);
 
     }
 
